@@ -1,3 +1,6 @@
+##一：OpenCV-android-sdk说明
+
+
 #请在app/CMakeLists.txt中设置好OpenCV-android-sdk的路径
 #Demo的OpenCV版本是OpenCV-3.1.0-android-sdk，CMakeLists已经设置为：
 set(OpenCV_DIR ${CMAKE_SOURCE_DIR}/../OpenCV-android-sdk/sdk/native/jni)
