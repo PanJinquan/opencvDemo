@@ -1,4 +1,4 @@
-##一：OpenCV-android-sdk说明
+## 一：OpenCV-android-sdk说明
 
 
 #请在app/CMakeLists.txt中设置好OpenCV-android-sdk的路径
