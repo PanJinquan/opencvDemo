@@ -5,9 +5,10 @@
 
 cmake_minimum_required(VERSION 3.4.1)
 
-
+#设置OpenCV的路径
 set(OpenCV_DIR ${CMAKE_SOURCE_DIR}/../OpenCV-android-sdk/sdk/native/jni)
 find_package(OpenCV REQUIRED)
+#包含OpenCV的头文件
 include_directories( ${CMAKE_SOURCE_DIR}/../OpenCV-android-sdk/sdk/native/jni/include)
 
 
@@ -59,7 +60,6 @@ find_library( # Sets the name of the path variable.
 #将NDK库链接到native库中，这样native库才能调用NDK库中的函数
 target_link_libraries( # Specifies the target library.
                        native-lib
-                       imagePro-lib
 
                        # Links the target library to the log library
                        # included in the NDK.
